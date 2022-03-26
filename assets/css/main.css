@@ -2247,6 +2247,10 @@ input, select, textarea {
 
 	}
 
+	p {
+		font-size: 1.25em;
+	}
+
 /* Medium */
 
 	@media screen and (max-width: 980px) {
@@ -2281,10 +2285,17 @@ input, select, textarea {
 				letter-spacing: 0;
 			}
 
-			h1, h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+			h1, h2, h4, h5, h6 {
+				font-size: 2em;
 				margin: 0 0 0.4em 0;
 			}
+
+			h3 {
+				font-size: 1.5em;
+				margin: 0 0 0.4em 0;
+			}
+
+			
 
 			h1 {
 				font-size: 2.25em;
@@ -2396,7 +2407,11 @@ input, select, textarea {
 				}
 
 				.box.style1 {
-					max-width: 32em;
+					/* max-width: 32em; */
+					display: inline-block;
+					flex-wrap: wrap;
+					width: 150px;
+					height: 175px;
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
@@ -2445,7 +2460,7 @@ input, select, textarea {
 				}
 
 				#top p {
-					font-size: 1em;
+					font-size: 1.5em;
 				}
 
 			#contact footer {
