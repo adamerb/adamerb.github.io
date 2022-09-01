@@ -127,7 +127,7 @@ input, select, textarea {
 		}
 
 		a img {
-			border: solid #303030 2px;
+			/* border: solid #303030 2px; */
 		}
 
 	b, strong {
@@ -1938,7 +1938,6 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
-		height: 460px;
 	}
 
 		.box.style1 {
@@ -1948,6 +1947,10 @@ input, select, textarea {
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
+
+		.box.style2{
+			height: 496px;
+		}
 
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
